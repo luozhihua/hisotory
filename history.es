@@ -1,5 +1,4 @@
-
-class History extends window.history {
+class History extends window.history.constructor {
 
     constructor() {
     	super();
@@ -12,6 +11,4 @@ class History extends window.history {
 
 	    }
     }
-
-
 }
