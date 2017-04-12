@@ -1,0 +1,31 @@
+{
+  "name": "history",
+  "version": "1.0.0",
+  "description": "An histoiry api extend for window.history that can controll android back button.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/babel -o index.js history.es",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luozhihua/hisotory.git"
+  },
+  "keywords": [
+    "history",
+    "back",
+    "button",
+    "android"
+  ],
+  "author": "luozhihua <mail@luozhihua.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luozhihua/hisotory/issues"
+  },
+  "homepage": "https://github.com/luozhihua/hisotory#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
