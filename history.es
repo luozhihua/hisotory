@@ -1,4 +1,4 @@
-class History extends window.history.constructor {
+export default class History extends window.history.constructor {
 
     constructor() {
     	super();
