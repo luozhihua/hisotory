@@ -27,5 +27,8 @@
     "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1"
+  },
+  "dependencies": {
+    "respondent-emitter": "git+https://github.com/luozhihua/respondent-emitter.git"
   }
 }

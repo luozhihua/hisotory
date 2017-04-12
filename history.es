@@ -1,3 +1,5 @@
+import Event from "respondent-emitter";
+
 function OriginHistory() {}
 OriginHistory.prototype = window.history;
 
