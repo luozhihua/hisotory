@@ -1,4 +1,7 @@
-export default class History extends window.history.constructor {
+function OriginHistory() {}
+OriginHistory.prototype = window.history;
+
+export default class History extends OriginHistory {
 
     constructor() {
     	super();

@@ -10,8 +10,11 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var History = function (_window$history$const) {
-				_inherits(History, _window$history$const);
+function OriginHistory() {}
+OriginHistory.prototype = window.history;
+
+var History = function (_OriginHistory) {
+				_inherits(History, _OriginHistory);
 
 				function History() {
 								_classCallCheck(this, History);
@@ -27,6 +30,6 @@ var History = function (_window$history$const) {
 				}
 
 				return History;
-}(window.history.constructor);
+}(OriginHistory);
 
 exports.default = History;
